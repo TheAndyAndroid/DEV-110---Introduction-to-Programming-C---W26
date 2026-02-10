@@ -86,6 +86,9 @@ Desktop.ini
 # Sensitive files (keep student work private)
 **/solution/
 
-# Exception: Allow solution directories in labs
+# Exception: Allow only Program.cs and .csproj files in labs solution folders
 !labs/**/solution/
+labs/**/solution/**
+!labs/**/solution/Program.cs
+!labs/**/solution/*.csproj
 
